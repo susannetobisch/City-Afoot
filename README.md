@@ -54,13 +54,13 @@ Map Points of Interest onto a Street Network
 Street Network Figure-Ground Diagrams
 
 <p align="left">
-  <img src="/figures/square_mile_stephansplatz.png" width="22%">
+  <img src="/figures/square_mile_stephansplatz.png" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/figures/square_mile_wilhelminenstrasse.png" width="22%">
+  <img src="/figures/square_mile_wilhelminenstrasse.png" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/figures/square_mile_himmelstrasse.png" width="22%">
+  <img src="/figures/square_mile_himmelstrasse.png" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/figures/square_mile_hlawkagasse.png" width="22%">
+  <img src="/figures/square_mile_hlawkagasse.png" width="20%">
 </p>
 
 [Structure Isodistance](Structure%20Isodistance.ipynb)
