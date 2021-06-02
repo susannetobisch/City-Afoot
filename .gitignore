@@ -1,0 +1,5 @@
+*.pyc
+cache/
+osm/*.osm
+osm/overpass_db/
+.vscode/
