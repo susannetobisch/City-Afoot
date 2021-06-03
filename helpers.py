@@ -2,7 +2,8 @@ import osmnx as ox
 
 from shapely.geometry import LineString
 from shapely.geometry import Point
-
+import matplotlib.pyplot as plt
+from IPython.display import Image, display
 
 def redistribute_graph(G, length=25):
     G = G.copy()
@@ -56,4 +57,11 @@ def redistribute_graph(G, length=25):
         G.add_edge(u, v, **attr)
     
     return G
-    
+
+def save_and_show(fig, name):
+    plt.ioff()
+    fig.savefig('figures/%s.svg' % name, bbox_inches='tight')
+    fig.savefig('figures/%s.png' % name, bbox_inches='tight')
+    plt.close(fig)
+    plt.ion()
+    display(Image("figures/%s.png" % name))
